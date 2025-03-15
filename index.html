@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+         <title> Home ┃ JOM </title>
+         <link rel="icon" href="Jfavicon.png" type="image/png">
+    </head>
+    <style>
+        body {
+            background-color: #ffebc6;  
+        }
+         h2 {
+            display: inline;
+            text-align: left;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        nav {
+            padding: 10px;
+            text-align:right
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-style: italic;
+        }
+        main {
+            padding: 50px;
+            max-width: 1500px;
+            margin: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            background-color: #ffffff;
+        }
+        footer {
+            text-align: center;
+            font-style: italic;
+        }
+        .img-container {
+            display: inline;
+            justify-content: flex-end;
+            padding: 150px;
+        }
+
+        .img-container img {
+            width: 500px;
+            height: auto;
+        }
+        .img-container2 {
+            display: inline;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+
+        .img-container2 img {
+            width: 280px;
+            height: 425px;
+        }
+        .portfolio-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+    </style>
+    <body>
+        <header id="Home">
+            <img src="Jfavicon.png" alt="Logo">
+        </header>
+        <nav>
+            <ul>
+               <li><a href="#Home">Home</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h1> Hi, we are <span style="color: orange; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Jomar Flores &amp; <br> Deca Mae Dayuday</span></h1>
+                    <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; color: grey;"> IT Students from Cebu Eastern College </h3>
+                    <a href="portfolio.html">
+                        <button class="portfolio-btn">See Portfolios</button>
+                    </a> <br><br>
+                    <h2> About Us </h2>
+                    <aside style="font-size: 18px; color: #444; line-height: 1.5;">
+                        We are passionate about technology and innovation, specializing in web development, programming, and creative digital projects. Our goal is to create impactful solutions that enhance user experiences. Follow our journey as we explore the world of IT and build meaningful projects.
+                    </aside>
+                </div>
+                <div style="flex: 1; min-width: 300px; padding-left: 20px;">
+                    <div class="img-container">
+                        <img src="sobranglatinas.png" alt="Sobrang Latina">
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+           <p>Copyright &copy; 2025, JOM. </p> 
+        </footer>
+
+    </body>
+</html>
